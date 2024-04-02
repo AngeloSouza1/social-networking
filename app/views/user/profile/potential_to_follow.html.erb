@@ -1,17 +1,18 @@
+
 <div class="row">
   <% @potential_to_follow.each do |user| %>
-      <div class="col-lg-4">
-        <div class="card">
+    <div class="col-lg-4 mb-4">
+      <div class="card h-100">
         <%= render("user_card_header", user: user)  %>
-
-          <div class="card-body">
-            Email:<p class="card-text text-muted"><%= user.email %></p>
-            Telefone:<p class="card-text text-muted"><%= user.phone %></p>
-            <%= button_to "Seguir", user_follow_path(user), method: :post, class: "btn btn-success" %>
-
-          </div>
-
-
+        <div class="card-body">
+          <p class="card-text"><strong>Email:</strong> <%= user.email %></p>
+          <p class="card-text"><strong>Telefone:</strong> <%= user.phone %></p>
         </div>
-   <% end %>
-  </div>
+        <div class="card-footer">
+          <%= button_to "Seguir", user_follow_path(user), method: :post, class: "btn btn-success" %>
+        </div>
+
+      </div>
+    </div>
+  <% end %>
+</div>
