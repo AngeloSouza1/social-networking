@@ -1,5 +1,5 @@
-<div class="card text-white bg-dark mb-3 mt-3"  style="font-size:17px;">
-    <div class="card-header">
+<div id="card" class="text-white mb-3 mt-3" style="font-size: 17px; background-color: #1a1a2e ;">
+<div class="card-header">
      <% if post.user == current_user%>
             <%= button_to user_post_path(post), method: :delete, class: "close text-white"  do %>
               <span aria-hidden="true">&times;</span>
