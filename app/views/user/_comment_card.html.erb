@@ -6,7 +6,9 @@
                   <span aria-hidden="true">&times;</span>
                 <% end %>
              <% end %>
-            <%= link_to comment.user.name, comment.user == current_user ? user_profile_path : user_user_path(post.user) %>
+
+        <%= image_tag(comment.user.avatar, class: "ui-w-100-forced rounded-circle mr-3", style: "width: 23px; heigth: 23px") %>
+        <%= link_to comment.user.name, comment.user == current_user ? user_profile_path : user_user_path(post.user) %>
         </div>
 
         <div class="card-body">

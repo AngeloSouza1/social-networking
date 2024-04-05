@@ -1,11 +1,16 @@
 <div class="card text-white mb-3 mt-3" style="font-size: 17px; background-color: #1a1a2e ;">
 <div class="card-header">
-     <% if post.user == current_user%>
-            <%= button_to user_post_path(post), method: :delete, class: "close text-white"  do %>
+
+
+    <% if post.user == current_user%>
+            <%= button_to user_post_path(post), method: :delete, data: {confirm: "Você tem certeza que quer excluir este post?"}, class: "close text-white"  do %>
               <span aria-hidden="true">&times;</span>
             <% end %>
          <% end %>
-        <%= link_to post.user.name, post.user == current_user ? user_profile_path : user_user_path(post.user) %>
+
+       <%= image_tag(post.user.avatar, class: "ui-w-100-forced rounded-circle mr-3", style: "width: 30px; heigth: 30px") %>
+       <%= link_to post.user.name, post.user == current_user ? user_profile_path : user_user_path(post.user) %>
+
     </div>
 
     <div class="card-body">
