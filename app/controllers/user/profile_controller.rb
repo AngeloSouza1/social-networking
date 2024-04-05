@@ -1,6 +1,7 @@
 class User::ProfileController < UserController
   def show
     @post = Post.new
+    @comment = Comment.new
   end
   def potential_to_follow #todos os usuarios que nao esta seguindo, e tb menos o usuario
     @potential_to_follow = User.potential_to_follow(current_user)

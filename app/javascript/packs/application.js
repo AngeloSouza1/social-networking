@@ -17,3 +17,5 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 
 import "./like_toggle"
+import $ from 'jquery';
+global.$ = $;
