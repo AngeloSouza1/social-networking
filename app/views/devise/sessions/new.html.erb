@@ -27,14 +27,27 @@
           <div class="d-flex justify-content-center align-items-center m-0">
             <%= f.submit 'Entrar', class: "btn btn-primary" %>
           </div>
-        <% end %>
+      <% end %>
+
+        <% if resource_name == :admin  %>
+          <div class="d-flex justify-content-center align-items-center mt-3">
+            <%= link_to "Login de Usuário", user_session_path, style: "color: gray;" %>
+          </div>
+      <% end %>
 
          <% if resource_name == :user  %>
             <%= link_to new_user_registration_path, class: "d-flex justify-content-center align-items-center mt-4" do %>
               Cadastrar
-            <% end %>
+           <% end %>
+          <div class="d-flex justify-content-center align-items-center mt-3""  >
+          <%= link_to "Login de Administrador", admin_session_path, style: "color: gray;" %>
+          </div>
          <% end %>
       </div>
+
     </div>
   </div>
+
+
 </div>
+
