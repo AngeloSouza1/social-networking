@@ -37,6 +37,7 @@ O projeto Social Rails é desenvolvido utilizando as seguintes tecnologias e gem
 
 🔹 Devise: Utilizada para fornecer funcionalidades de autenticação, registro de usuário e gerenciamento de sessões de forma segura e eficiente.
 
+---
 
 #### 💡 Veja!
 
@@ -53,7 +54,7 @@ O projeto Social Rails é desenvolvido utilizando as seguintes tecnologias e gem
 
 
 
-
+---
  ### 📋 Instalação
  Para executar a aplicação localmente em seu ambiente de desenvolvimento, siga estas etapas:
 
