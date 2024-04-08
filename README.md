@@ -26,15 +26,6 @@ O objetivo principal do projeto Social Rails é fornecer uma plataforma onde os 
 
 ####  🛠 Tecnologias utilizadas
 
-Com base na estrutura fornecida, vamos criar um README para a sua Rede Social em Rails:
-
-Social Rails 🚀
-<div align="justify">
-O projeto Social Rails é uma aplicação desenvolvida para criar uma rede social onde os usuários podem se conectar, compartilhar postagens e interagir um com o outro de forma eficiente e segura, utilizando o framework Ruby on Rails.
-</div>
-💻 Sobre o projeto
-<div align="justify">
-O objetivo principal do projeto Social Rails é fornecer uma plataforma onde os usuários possam compartilhar suas experiências, ideias e interesses. Com funcionalidades de publicação de postagens, comentários e seguidores, os usuários podem construir uma rede significativa e interagir com conteúdos relevantes.
 👁️‍🗨️ Funcionalidades Principais
 🔹 Autenticação de Usuários: Permitir que os usuários se cadastrem, façam login e logout de forma segura.
 
