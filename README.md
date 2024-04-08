@@ -1,4 +1,4 @@
-# Social Rails 🚀
+# Social Rails 🌟
 
 <div align="justify">
 O projeto Social Rails é uma aplicação desenvolvida para criar uma rede social onde os usuários podem se conectar, compartilhar postagens e interagir um com o outro de forma eficiente e segura, utilizando o framework Ruby on Rails.
