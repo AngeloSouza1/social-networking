@@ -7,6 +7,7 @@ O projeto Social Rails é uma aplicação desenvolvida para criar uma rede socia
 
 ### 💻  Sobre o projeto
 ---
+
 <div align="justify">
 O objetivo principal do projeto Social Rails é fornecer uma plataforma onde os usuários possam compartilhar suas experiências, ideias e interesses. Com funcionalidades de publicação de postagens, comentários e seguidores, os usuários podem construir uma rede significativa e interagir com conteúdos relevantes.
 
@@ -24,19 +25,8 @@ O objetivo principal do projeto Social Rails é fornecer uma plataforma onde os 
 
 </div>
 
-####  🛠 Tecnologias utilizadas
-
-👁️‍🗨️ Funcionalidades Principais
-🔹 Autenticação de Usuários: Permitir que os usuários se cadastrem, façam login e logout de forma segura.
-
-🔹 Publicação de Postagens: Possibilitar que os usuários criem e compartilhem postagens com texto e imagens.
-
-🔹 Interação Social: Permitir que os usuários sigam outros usuários, curtam postagens e comentem nelas.
-
-🔹 Feed de Notícias Personalizado: Exibir no feed de cada usuário postagens dos usuários que ele segue.
-
-</div>
 🛠 Tecnologias utilizadas
+
 O projeto Social Rails é desenvolvido utilizando as seguintes tecnologias e gems:
 
 🔹 Ruby on Rails: Framework web utilizado para o desenvolvimento rápido e eficiente de aplicações web.
@@ -60,7 +50,7 @@ O projeto Social Rails é desenvolvido utilizando as seguintes tecnologias e gem
 <br>
 🔹Video de demonstração
 
-[Assista a este vídeo sobre sua funcionalidade](https://github.com/AngeloSouza1/mind-app/assets/104176076/8dd7b816-ceda-4a45-a3a5-9d263480bd6e)
+
 
 
 
