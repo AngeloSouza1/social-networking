@@ -51,6 +51,9 @@ O projeto Social Rails é desenvolvido utilizando as seguintes tecnologias e gem
 <br>
 🔹Video de demonstração
 
+[Assista a este vídeo sobre sua funcionalidade](https://github.com/AngeloSouza1/social-networking/assets/104176076/4349e53e-eace-4fad-a0c6-a4ae15d88a3e)
+
+
 
 
 
