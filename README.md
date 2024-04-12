@@ -42,10 +42,6 @@ O projeto Social Rails é desenvolvido utilizando as seguintes tecnologias e gem
 #### 💡 Veja!
 
 
-<a href="#">
-    <img src="https://img.shields.io/badge/ACESSO AO%20PROJETO!-gray" alt="Site">
-<br>
-</a>
 
 
 <br>
