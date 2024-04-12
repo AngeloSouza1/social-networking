@@ -81,7 +81,7 @@ rails db:migrate
  🔹 Inicie o servidor Rails:
 
   ```bash
-rails server
+bundle exec rails server
 ```
 
  🔹 Abra seu navegador e acesse a aplicação em http://localhost:3000.
